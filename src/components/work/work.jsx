@@ -26,7 +26,9 @@ const Work = () => {
           to their unique needs and objectives.
           <br />
         </span>
-        <button className="button s-button">Hire me</button>
+        <a href="https://www.freelancer.in/u/harsh31072003">
+          <button className="button s-button">Hire me</button>
+        </a>
         <div className="blur s-blur" style={{ background: '#ABF1FF94' }}></div>
       </div>
 

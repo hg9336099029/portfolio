@@ -28,16 +28,24 @@ return (
       className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={weatherapp} alt="Weather App" />
+          <a href="https://github.com/hg9336099029/weather_app/tree/main/weather%20app">
+            <img src={weatherapp} alt="Weather App" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://github.com/hg9336099029/slither-game">
           <img src={snakeslither} alt="Snake Slither" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://github.com/hg9336099029/project-">
           <img src={socialgo} alt="SocialGo App" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="">
           <img src={musicapp} alt="Music App" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
