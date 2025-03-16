@@ -1,0 +1,18 @@
+<!-- filepath: d:\web_d\portfolio_harsh\src\pages\index.js -->
+
+import React from 'react';
+import HomePage from './HomePage';
+import AboutPage from './AboutPage';
+import ContactPage from './ContactPage';
+
+const Pages = () => {
+    return (
+        <div>
+            <HomePage />
+            <AboutPage />
+            <ContactPage />
+        </div>
+    );
+};
+
+export default Pages;

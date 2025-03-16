@@ -1,0 +1,12 @@
+portfolio_harsh
+├── src
+│   ├── assets          # Static assets like images and fonts
+│   ├── components      # Reusable components
+│   ├── pages           # Main application pages
+│   ├── styles          # Stylesheets for the application
+│   └── index.js        # Entry point of the application
+├── public
+│   └── index.html      # Main HTML file
+├── package.json        # Project metadata and dependencies
+├── .gitignore          # Files to ignore in Git
+└── README.md           # Project documentation
