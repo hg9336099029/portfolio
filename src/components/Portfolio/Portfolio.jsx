@@ -4,9 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import weatherapp from '../../img/weatherapp.png';
+import survey from '../../img/survey.png';
 import snakeslither from '../../img/snake slither.png';
 import socialgo from '../../img/socialgo.png';
 import musicapp from '../../img/musicapp.png';
+import scc from '../../img/scc.png';
 import { themeContext } from "../../context";
 import { useContext } from "react";
 const Portfolio = () => {
@@ -26,14 +28,15 @@ return (
       slidesPerView={3}
       grabCursor={true}
       className='portfolio-slider'
-      > <SwiperSlide>
-          <a href="https://github.com/hg9336099029/weather_app/tree/main/weather%20app">
-            <img src={weatherapp} alt="Weather App" />
+      > 
+      <SwiperSlide>
+          <a href="https://github.com/hg9336099029/Survey.application">
+            <img src={survey} alt="Weather App" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://github.com/hg9336099029/slither-game">
-          <img src={snakeslither} alt="Snake Slither" />
+          <a href="https://github.com/hg9336099029/social_media_content.analyzer">
+          <img src={scc} alt="Snake Slither" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
