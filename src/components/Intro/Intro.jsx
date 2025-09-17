@@ -10,6 +10,8 @@ import thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import codechef from '../../img/codechef.png';
+import leetcode from '../../img/leetcode.png';
 import { themeContext } from '../../context';
 import { useContext } from 'react';
 import { motion } from 'framer-motion';
@@ -26,9 +28,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? 'white' : '' }}>Hi I Am </span>
           <span>Harsh Gupta </span>
           <span>
-            Fullstack Developer with high level of experience in fullstack
-            <br />
-            development, producing quality work
+           <h1> A Fullstack Developer and Competitive Programmer with experience 
+            in building scalable web applications (MERN, PostgreSQL) 
+            and solving 900+ DSA problems across CodeChef, LeetCode, 
+            and Codeforces.</h1>
           </span>
         </div>
         <a href="https://www.freelancer.in/u/harsh31072003" target="_blank" rel="noopener noreferrer">
@@ -41,8 +44,11 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/harsh-gupta-0886b1250/" target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">
-            <img src={Instagram} alt="Instagram" />
+          <a href="https://www.codechef.com/users/hg9336099029" target="_blank" rel="noopener noreferrer">
+            <img src={codechef} alt="codechef" />
+          </a>
+          <a href="https://leetcode.com/u/HARSH2OO3/" target="_blank" rel="noopener noreferrer">
+            <img src={leetcode} alt="leetcode" />
           </a>
         </div>
       </div>

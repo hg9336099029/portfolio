@@ -26,7 +26,16 @@ return (
       slidesPerView={3}
       grabCursor={true}
       className='portfolio-slider'
-      >
+      > <SwiperSlide>
+          <a href="https://github.com/hg9336099029/weather_app/tree/main/weather%20app">
+            <img src={weatherapp} alt="Weather App" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://github.com/hg9336099029/slither-game">
+          <img src={snakeslither} alt="Snake Slither" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a href="https://github.com/hg9336099029/weather_app/tree/main/weather%20app">
             <img src={weatherapp} alt="Weather App" />
