@@ -1,14 +1,5 @@
 # Portfolio Harsh  
 
-## Table of Contents  
-- [Introduction](#introduction)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-
 ## Introduction  
 This is a personal portfolio project showcasing the work and skills of **Harsh Gupta**. It highlights various projects, technical skills, and contact information in an interactive and visually appealing manner.  
 
